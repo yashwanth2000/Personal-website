@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="./styles.css">
+
+	<!-- FontAwesome -->
+	<script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Header -->
+	<header class="l-header">
+		<nav class="nav bd-grid">
+			<div>
+				<a href="#home" class="nav__logo">Yashwanth</a>
+			</div>
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="fas fa-bars"></i>
+			</div>
+		</nav>
+	</header>
+
+	<main class="l-main">
+		<!-- Home  --> 
+		<section class="home bd-grid" id="home">
+			<div class="home__data">
+				<h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Yashwanth </span><br/>Web Designer</h1>
+				<a href="#contact" class="button">Contact</a>
+			</div>
+
+			<div class="home__social">
+				<a href="https://github.com/yashwanth2000" class="home__social-icon gt" target="_blank"><i class="fab fa-github-square"></i></a>
+				<a href="https://twitter.com/yash_syc" class="home__social-icon tw" target="_blank"><i class="fab fa-twitter-square"></i></a>
+			</div>
+
+			<div class="home__img">
+				<img src="./img/YS.jpg" alt="ProfilePic">
+			</div>
+		</section>
+
+		<!-- About -->
+		<section class="about section" id="about">
+			<h2 class="section-title">About</h2>
+
+			<div class="about__container bd-grid">
+				<div class="about__img">
+					<img src="./img/YS.jpg" alt="">
+				</div>
+
+				<div>
+					<h2 class="about__subtitle">I'am Yashwanth</h2>
+					<p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+						Ipsa a sint nihil ut minus deserunt eligendi, 
+						animi incidunt reiciendis totam tenetur aperiam 
+						accusamus, eveniet optio natus cum maiores perspiciatis 
+						distinctio?
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skill -->
+		<section class="skills section" id="skills">
+			<h2 class="section-title">Skills</h2>
+			<div class="skills__container bd-grid">
+				<div>
+					<h2 class="skills__subtitle">Professional Skills</h2>
+					<p class="skills__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod</p>
+
+					<div class="skills__data">
+						<div class="skills__names">
+							<i class="fab fa-html5 skills__icon"></i>
+							<span class="skills__name">HTML5</span>
+						</div>
+						<div>
+							<span class="skills__parcentage">90%</span>
+						</div>
+						<div class="skills__bar skills__html"></div>
+					</div>
+
+					<div class="skills__data">
+						<div class="skills__names">
+							<i class="fab fa-css3-alt skills__icon"></i>
+							<span class="skills__name">CSS3</span>
+						</div>
+						<div>
+							<span class="skills__parcentage">80%</span>
+						</div>
+						<div class="skills__bar skills__css"></div>
+					</div>
+
+					<div class="skills__data">
+						<div class="skills__names">
+							<i class="fab fa-js-square skills__icon"></i>
+							<span class="skills__name">JavaScript</span>
+						</div>
+						<div>
+							<span class="skills__parcentage">50%</span>
+						</div>
+						<div class="skills__bar skills__js"></div>
+					</div>
+
+					<div class="skills__data">
+						<div class="skills__names">
+							<i class="fab fa-react skills__icon"></i>
+							<span class="skills__name">React</span>
+						</div>
+						<div>
+							<span class="skills__parcentage">50%</span>
+						</div>
+						<div class="skills__bar skills__react"></div>
+					</div>
+				</div>
+				<div>
+					<img src="./img/work3.jpg" alt="" class="skills__img">
+				</div>
+			</div>
+		</section>
+
+		<!-- Work -->
+		<section class="work section" id="work">
+			<h2 class="section-title">Work</h2>
+
+			<div class="work__container bd-grid">
+				<div class="work__img">
+					<img src="./img/work1.jpg" alt="">
+				</div>
+				<div class="work__img">
+					<img src="./img/work2.jpg" alt="">
+				</div>
+				<div class="work__img">
+					<img src="./img/work3.jpg" alt="">
+				</div>
+				<div class="work__img">
+					<img src="./img/work4.jpg" alt="">
+				</div>
+				<div class="work__img">
+					<img src="./img/work5.jpg" alt="">
+				</div>
+				<div class="work__img">
+					<img src="./img/work6.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section class="contact section" id="contact">
+			<h2 class="section-title">Contact</h2>
+
+			<div class="contact__container bd-grid">
+				<form action="" class="contact__form">
+					<input type="text" class="contact__input" placeholder="Name">
+					<input type="mail" class="contact__input" placeholder="Email">
+					<textarea name="" id="" cols="30" rows="10" class="contact__input"></textarea>
+					<input type="submit" value="Submit" class="contact__button button">
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<!-- footer -->
+	<footer class="footer">
+		<p class="footer__title">YEZY</p>
+		<div class="footer__social">
+			<a href="https://www.facebook.com/" class="footer-icon fb" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/" class="footer-icon ig" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/" class="footer-icon yt" target="_blank"><i class="fab fa-youtube"></i></a>
+		</div>
+		<p>&#169; 2020 copyright reserverd</p>
+	</footer>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
